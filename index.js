@@ -752,7 +752,7 @@ Command.prototype.missingArgument = function(name) {
   console.error();
   console.error("  error: missing required argument `%s'", name);
   console.error();
-  process.exit(1);
+  // process.exit(1);
 };
 
 /**
@@ -771,7 +771,7 @@ Command.prototype.optionMissingArgument = function(option, flag) {
     console.error("  error: option `%s' argument missing", option.flags);
   }
   console.error();
-  process.exit(1);
+  // process.exit(1);
 };
 
 /**
@@ -786,7 +786,7 @@ Command.prototype.unknownOption = function(flag) {
   console.error();
   console.error("  error: unknown option `%s'", flag);
   console.error();
-  process.exit(1);
+  // process.exit(1);
 };
 
 /**
